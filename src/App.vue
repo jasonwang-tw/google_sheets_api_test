@@ -1,9 +1,11 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">首頁</router-link> |
+    <router-link to="/speaker">講者</router-link> |
+    <router-link to="/a-area">A區</router-link> |
+    <router-link to="/b-area">B區</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
